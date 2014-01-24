@@ -1,14 +1,14 @@
-bbody { background-color: #F9FCFF; }
+body { background-color: #F9FCFF; }
 h1 {color:navy;}
 
-.node {
+.off {
 	width: 20px;
 	height: 20px;
 	color: gray;
 	border-radius:25px;
 	background-color:gray;
 }
-.red {
+.on {
 	width: 20px;
 	height: 20px;
 	color: gray;

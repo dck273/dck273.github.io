@@ -1,9 +1,9 @@
-$(document).ready(function(){
-    $('div').hover(function(){
-        $(this).addClass('red');
-    });
-    
-    $('div').click(function(){
-        $(this).fadeOut('fast');
-    });
-});
+function readyFN(){
+	$('div').hover(function(){
+		$('div').toggleClass('on');
+	});
+	
+	/*if($('div').hasClass('on')){
+		$('div').addClass('off');
+	}*/
+}
