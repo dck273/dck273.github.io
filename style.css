@@ -1,1 +1,10 @@
-html { background-color: #CACAFF; }
+body { background-color: #F9FCFF; }
+h1 {color:navy;}
+
+.node {
+	width: 20px;
+	height: 20px;
+	color: gray;
+	border-radius:25px;
+	background-color:gray;
+}
