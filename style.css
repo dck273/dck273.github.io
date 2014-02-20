@@ -1,17 +1,40 @@
-body { background-color: #F9FCFF; }
-h1 {color:navy;}
-
-.off {
-	width: 20px;
-	height: 20px;
-	color: gray;
-	border-radius:25px;
-	background-color:gray;
+body{
+  background: #1a1a1a;
+  color: #c0c5ce;
+  font-family: "Courier new", courier, monospace;
+  font-size: 16px;
+  line-height: 1.5em;
 }
-.on {
-	width: 20px;
-	height: 20px;
-	color: gray;
-	border-radius:25px;
-	background-color:red;
+
+.cblock{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cflow{
+  color:#bf616a;
+}
+
+.comment{
+  color:gray;
+}
+
+.bool{
+  color:#a3be8c;
+}
+.sbod{
+  color:#96b5b4;
+  padding-left: 15px;
+}
+
+.bod{
+  color:#96b5b4;
+}
+
+.twist{
+  color:white;
+  height: 10px;
+  width:10px;
 }
